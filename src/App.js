@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "./components/Header";
-import MainGrid from "./components/MainGrid";
+import GridLayout from "./components/GridLayout";
+import FooterNav from "./components/FooterNav";
+// import Bar from "./components/Bar";
 
 function App() {
   return (
     <>
       <Header />
-      <MainGrid />
+      <GridLayout />
+      <FooterNav />
     </>
   );
 }
